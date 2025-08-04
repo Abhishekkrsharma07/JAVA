@@ -2,8 +2,8 @@
 import java.util.Arrays;
 
 //Given an array, find the second smallest and second largest element in the array. Print ‘-1’ in the event that either of them doesn't exist.
-public class SecLaSecSma {
-    static int findthenum(int arr[]){
+class SecLaSecSma {
+    public static int findthenum(int arr[]){
         Arrays.sort(arr);
         for(int i=0;i<arr.length;i++){
             if(arr[i]>=arr[arr.length-1]){
